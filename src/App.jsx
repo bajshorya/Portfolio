@@ -1,12 +1,17 @@
-import "./App.css";
+import React from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+
+import Navbar from "./Components/Navbar";
+import Intro from "./Sections/Intro";
 
 function App() {
   return (
-    <>
+    <Router>
       <div>
-        <h2 className="text-5xl font-bold underline">Hello world!</h2>
+        <Navbar />
+        <Intro />
       </div>
-    </>
+    </Router>
   );
 }
 
