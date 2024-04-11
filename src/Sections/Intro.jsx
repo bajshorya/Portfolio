@@ -1,29 +1,30 @@
 import React from "react";
+import { me } from "../assets/img";
 
 const Intro = () => {
   return (
     <>
-      <div>
-        <section className="w-full flex justify-center min-h-screen bg-[#221938]">
-          <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:p-10 pt-18 text-gray-400 xl:items-center">
-            <p className="text-3xl font-montserrat text-coral-red text-center xl:text-left">
-              Hi, my name is
-            </p>
-
-            <h1 className="mt-10 font-palanquin text-8xl max-sm:text-6xl max-sm:leading-10 font-bold text-white text-center xl:text-left">
-              <span className="xl:whitespace-nowrap">Shorya Baj</span>
+      <div className="bg-[#221938] min-h-screen flex justify-center items-center">
+        <div className="max-w-4xl px-6 py-12 text-gray-400 flex items-center">
+          <div>
+            <h1 className="sm:text-5xl md:text-6xl font-bold mb-8">
+              <span className="text-coral-red text-3xl">Hi, my name is</span>
               <br />
-              <span className="xl:whitespace-nowrap">
-                I craft things for the web.
-              </span>
-              <br />
+              <span className="text-white text-9xl ">Shorya Baj</span>
             </h1>
-            <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm text-center xl:text-left">
-              Discover stylish Nike arrivals, quality comfort, and innovation
-              for your active life.
+            <p className="text-lg md:text-xl mb-8">
+              I craft things for the web.
             </p>
           </div>
-        </section>
+          <div className="ml-10">
+            <img
+              src={me}
+              alt="Shorya"
+              width={400}
+              className="border rounded-3xl p-5 transition-transform hover:scale-105"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
