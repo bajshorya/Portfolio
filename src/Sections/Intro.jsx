@@ -10,7 +10,9 @@ const Intro = () => {
             <h1 className="sm:text-5xl md:text-6xl font-bold mb-8">
               <span className="text-coral-red text-3xl">Hi, my name is</span>
               <br />
-              <span className="text-white text-9xl ">Shorya Baj</span>
+              <span className="text-white text-9xl hover:text-[#6345a3] hover:cursor-pointer ">
+                Shorya Baj
+              </span>
             </h1>
             <p className="text-lg md:text-xl mb-8">
               I craft things for the web.
@@ -21,7 +23,7 @@ const Intro = () => {
               src={me}
               alt="Shorya"
               width={400}
-              className="border rounded-3xl p-5 transition-transform hover:scale-105"
+              className=" rounded-3xl p-5 transition-transform hover:scale-105 hover:border hover:cursor-pointer"
             />
           </div>
         </div>
