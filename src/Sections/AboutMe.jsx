@@ -8,10 +8,10 @@ const AboutMe = () => {
           <h1 className="font-semibold text-7xl text-white pb-8 text-center   cursor-pointer">
             About Me
           </h1>
-          <div className="bg-[#3d315b] rounded-xl p-8 text-white text-lg  hover:shadow-2xl hover:border border-white cursor-pointer">
+          <div className="bg-[#211b32] rounded-xl p-8 text-white text-lg  hover:shadow-2xl cursor-pointer">
             <p className="mb-8">
               Hey hey! I'm{" "}
-              <span className="text-[#896fc1] font-bold">Shorya Baj</span>, a
+              <span className="text-[#896fc1] font-bold ">Shorya Baj</span>, a
               frontend fanatic with a dash of blockchain brilliance. Currently
               cruising through my B.Tech journey, where I'm not only mastering
               the art of frontend web development but also diving deep into the

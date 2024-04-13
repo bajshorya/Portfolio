@@ -15,7 +15,7 @@ function App() {
         <Intro />
 
         <AboutMe />
-        <hr />
+
         <Skills />
       </div>
     </Router>
