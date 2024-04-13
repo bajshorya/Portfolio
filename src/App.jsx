@@ -3,13 +3,20 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
 import Intro from "./Sections/Intro";
+import AboutMe from "./Sections/AboutMe";
+import Skills from "./Sections/Skills";
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
+        <hr />
         <Intro />
+        <hr />
+        <AboutMe />
+        <hr />
+        <Skills />
       </div>
     </Router>
   );
