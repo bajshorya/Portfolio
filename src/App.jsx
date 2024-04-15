@@ -5,17 +5,16 @@ import Navbar from "./Components/Navbar";
 import Intro from "./Sections/Intro";
 import AboutMe from "./Sections/AboutMe";
 import Skills from "./Sections/Skills";
+import Contact from "./Sections/Contact";
 
 function App() {
   return (
     <div>
       <Navbar />
-
       <Intro />
-
       <AboutMe />
-
       <Skills />
+      <Contact />
     </div>
   );
 }
