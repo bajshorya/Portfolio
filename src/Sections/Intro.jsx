@@ -23,7 +23,8 @@ const Intro = () => {
               <img
                 src={me}
                 alt="Shorya"
-                className="rounded-3xl p-5 transition-transform hover:scale-105 hover:border hover:cursor-pointer w-full"
+                className="rounded-3xl p-5 transition-transform hover:scale-105 hover:border hover:cursor-pointer"
+                width={350}
               />
             </div>
           </div>

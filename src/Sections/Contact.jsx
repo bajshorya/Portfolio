@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
+    <section id="contact">
       <div className="bg-[#110C1F] min-h-screen flex justify-start items-center">
         <div className="max-w-4xl mx-6 ">
           <h1 className="font-semibold text-7xl text-white pb-8 cursor-pointer">
@@ -20,7 +20,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
