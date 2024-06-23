@@ -17,6 +17,8 @@ const Skills = () => {
               <SkillItem title="HTML" />
               <SkillItem title="CSS" />
               <SkillItem title="Solidity" />
+              <SkillItem title="Node.js" />
+              <SkillItem title="MongoDB" />
             </ul>
           </div>
         </div>
