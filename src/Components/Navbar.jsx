@@ -9,7 +9,7 @@ const Navbar = () => {
         <a href="/" className="text-3xl ">
           Shorya Baj
         </a>
-        <ul className="flex-1 flex justify-center items-center gap-16 ">
+        <ul className="flex-1 flex justify-end items-center gap-16 ">
           {navLinks.map((item) => (
             <li key={item.label}>
               <a
