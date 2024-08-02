@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 export const IntroCard = () => {
   return (
     <div>
-      <div className="text-4xl font-bold  ">Namaste, I'm Shorya.</div>
+      <div className="text-4xl font-bold text-slate-700">
+        Namaste, I'm Shorya.
+      </div>
       <div className="text-2xl text-slate-500 font-thin mt-2">
         A developer from Jaipur, India.
       </div>
@@ -19,7 +21,7 @@ export const IntroCard = () => {
         <Link to="/info">
           <button
             type="button"
-            className="py-2.5 px-8  mb-2 mt-5 text-sm  font-medium text-white focus:outline-none bg-black  rounded-full border border-gray-200 hover:bg-gray-100 hover:text-slate-600 focus:z-10 focus:ring-4 focus:ring-gray-100 transition ease-in-out delay-150  hover:-translate-y-1"
+            className="py-2.5 px-8  mb-2 mt-5 text-sm  font-medium text-white focus:outline-none bg-slate-700 rounded-full border border-gray-200 hover:bg-gray-100 hover:text-slate-600 focus:z-10 focus:ring-4 focus:ring-gray-100 transition ease-in-out delay-150  hover:-translate-y-1"
           >
             More Information
           </button>
