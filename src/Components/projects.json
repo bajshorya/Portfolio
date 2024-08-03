@@ -1,8 +1,9 @@
 [
   {
     "id": 1,
+    "imageName": "medium.svg",
     "name": "Medium Clone",
-    "description": "A Medium (Blog website) clone made using React-TypeScript, Cloudflare backend (Hono), and Prisma.",
+    "description": " Medium (Blog website) clone made using React-TypeScript, Cloudflare backend (Hono), and Prisma.",
     "technologies": [
       "React",
       "TypeScript",
@@ -15,14 +16,18 @@
   },
   {
     "id": 2,
+    "imageName": "newsApp.svg",
+
     "name": "News App",
     "description": "Latest News Rendering Website ",
     "technologies": ["React", "JavaScript", "Bootstrap-CSS"],
-    "link": "https://medium-two-phi.vercel.app",
+    "link": "",
     "github": "https://github.com/bajshorya/Medium.git"
   },
   {
     "id": 2,
+    "imageName": "newsApp.svg",
+
     "name": "News App",
     "description": "Latest News Rendering Website ",
     "technologies": ["React", "JavaScript", "Bootstrap-CSS"],
@@ -31,6 +36,8 @@
   },
   {
     "id": 3,
+    "imageName": "FoodApp.svg",
+
     "name": "Swiggy Mern",
     "description": "A Full Stack Food Ordering Website something like 'Something Like Swiggy'",
     "technologies": [
