@@ -4,15 +4,12 @@ import { ContactLinks } from "./ContactLinks";
 export const ContactCard = () => {
   return (
     <div>
-      {" "}
-      <div className="text-4xl font-bold text-slate-700 my-5">Contact </div>
-      <div className="text-2xl text-slate-500 font-thin mt-5">
-        If you'd like to get in touch, you can reach me using the following
-        methods.
+      <div className="text-4xl font-bold text-slate-300 my-5">Contact</div>
+      <div className="text-2xl text-slate-200 font-thin mt-5">
+        If you'd like to get in touch, you can reach me using the following methods.
       </div>
-      <div className="text-slate-800  mt-5">
-        Please note, that I'm currently "Available" for freelance projects, and
-        Internships.
+      <div className="text-slate-500 mt-5">
+        Please note, that I'm currently "Available" for freelance projects, and Internships.
       </div>
       <hr className="my-10" />
       <div className="my-10">
