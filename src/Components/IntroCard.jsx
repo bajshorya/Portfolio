@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 export const IntroCard = () => {
   return (
     <div>
-      <div className="text-4xl font-bold text-slate-700">
+      <div className="text-4xl font-bold text-slate-300">
         Namaste, I'm Shorya.
       </div>
-      <div className="text-2xl text-slate-500 font-thin mt-2">
+      <div className="text-2xl text-slate-200 font-thin mt-2">
         A developer from Jaipur, India.
       </div>
-      <div className="text-slate-800  mt-2">
+      <div className="text-slate-500  mt-2">
         I'm a passionate developer specializing in full stack and Web3
         technologies. With expertise in TypeScript, Express.js, Node.js, React,
         and Solidity, I create innovative, cutting-edge solutions. Driven by
@@ -27,7 +27,7 @@ export const IntroCard = () => {
           </button>
         </Link>
       </div>
-      <hr className="mt-5 " />{" "}
+      <hr className="my-7 " />{" "}
     </div>
   );
 };

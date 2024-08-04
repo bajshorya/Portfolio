@@ -13,12 +13,12 @@ const imageMap = {
 
 export const ProjectCard = () => {
   return (
-    <div className="lg:w-[170%] lg:-ml-[35%] grid grid-cols-1 md:grid-cols-2 grid-flow-dense gap-8 mt-16">
+    <div className="lg:w-[170%] lg:-ml-[35%] grid grid-cols-1 md:grid-cols-2 grid-flow-dense gap-8 mt-16 text-black">
       {projects.map((project) =>
         project.isExternal ? (
           <a
             key={project.id}
-            className="group flex flex-col justify-center bg-slate-100 hover:bg-slate-400 transition-colors rounded-xl p-8"
+            className="group flex flex-col justify-center bg-slate-700 hover:bg-slate-400 transition-colors rounded-xl p-8"
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
@@ -41,8 +41,8 @@ export const ProjectCard = () => {
             <p className="text-slate-500 group-hover:text-white text-base transition-colors">
               {project.description}
             </p>
-            <h3 className="font-bold text-xl mt-4 group-hover:text-white transition-colors">
-              Technologies Used:
+            <h3 className="font-bold text-xl  my-4 group-hover:text-white transition-colors">
+              Technologies Used :-
             </h3>
             <div className="flex flex-wrap gap-2">
               {project.technologies.map((tech, index) => (
@@ -58,7 +58,7 @@ export const ProjectCard = () => {
         ) : (
           <Link
             key={project.id}
-            className="group flex flex-col justify-center bg-slate-100 hover:bg-slate-400 transition-colors rounded-xl p-8"
+            className="group flex flex-col justify-center bg-slate-900 hover:bg-slate-400 transition-colors rounded-xl p-8"
             to={project.link}
           >
             <div className="relative rounded-xl mb-4 shadow-project">
@@ -73,14 +73,14 @@ export const ProjectCard = () => {
                 style={{ color: "transparent" }}
               />
             </div>
-            <h3 className="text-slate-700 group-hover:text-white font-semibold tracking-tight text-xl transition-colors">
+            <h3 className="text-slate-200 group-hover:text-black transition-opacity font-semibold tracking-tight text-xl ">
               {project.name}
             </h3>
-            <p className="text-slate-500 group-hover:text-white text-base transition-colors">
+            <p className="text-slate-400 my-3  group-hover:text-black text-base transition-colors">
               {project.description}
             </p>
-            <h3 className="font-bold text-xl mt-4 group-hover:text-white transition-colors">
-              Technologies Used:
+            <h3 className="font-bold text-xl text-slate-200 my-4 group-hover:text-black transition-colors">
+              Technologies Used :-
             </h3>
             <div className="flex flex-wrap gap-2">
               {project.technologies.map((tech, index) => (
