@@ -25,7 +25,7 @@
     "github": "https://github.com/bajshorya/Medium.git"
   },
   {
-    "id": 2,
+    "id": 3,
     "imageName": "newsApp.svg",
 
     "name": "News App",
@@ -35,7 +35,7 @@
     "github": "https://github.com/bajshorya/NewsApp.git"
   },
   {
-    "id": 3,
+    "id": 4,
     "imageName": "FoodApp.svg",
 
     "name": "Swiggy Mern",
