@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 
 export const ProjectSection = () => {
   return (
-    <div className="mt-8">
+    <div className="my-8">
       <div className="text-3xl text-slate-200 font-blod mt-2">
         Personal Projects
       </div>

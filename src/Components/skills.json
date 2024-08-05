@@ -1,0 +1,70 @@
+[
+  {
+    "name": "TypeScript",
+    "path": "/src/assets/skills/typescript.svg"
+  },
+  {
+    "name": "Node.js",
+    "path": "/src/assets/skills/nodejs.svg"
+  },
+  {
+    "name": "Express.js",
+    "path": "/src/assets/skills/express-js.svg"
+  },
+  {
+    "name": "JavaScript",
+    "path": "/src/assets/skills/javascript.svg"
+  },
+  {
+    "name": "React.js",
+    "path": "/src/assets/skills/reactjs.svg"
+  },
+  {
+    "name": "PrismaORM",
+    "path": "/src/assets/skills/prismaorm.svg"
+  },
+  {
+    "name": "PostgreSQL",
+    "path": "/src/assets/skills/postgres.svg"
+  },
+  {
+    "name": "MongoDB",
+    "path": "/src/assets/skills/mongodb.svg"
+  },
+  {
+    "name": "MySQL",
+    "path": "/src/assets/skills/mysql.svg"
+  },
+  {
+    "name": "Rust",
+    "path": "/src/assets/skills/rust.svg"
+  },
+  {
+    "name": "Solidity",
+    "path": "/src/assets/skills/solidity.svg"
+  },
+  {
+    "name": "Tailwind",
+    "path": "/src/assets/skills/tailwind.svg"
+  },
+  {
+    "name": "Git",
+    "path": "/src/assets/skills/git.svg"
+  },
+  {
+    "name": "Java",
+    "path": "/src/assets/skills/java.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "path": "/src/assets/skills/bootstrap.svg"
+  },
+  {
+    "name": "HTML",
+    "path": "/src/assets/skills/html.svg"
+  },
+  {
+    "name": "CSS",
+    "path": "/src/assets/skills/css.svg"
+  }
+]
