@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div className="max-w-2xl  lg:max-w-xl  mx-auto mb-10">
       <hr className="my-7" />
-      <div className="flex justify-between mt-5">
+      <div className="flex justify-between mt-5 mx-4">
         <div className="text-xs text-slate-400 ">
           © 2022 - 2024 / Shorya Baj
         </div>
