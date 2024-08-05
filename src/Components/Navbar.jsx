@@ -15,12 +15,7 @@ export const Navbar = () => {
           >
             Information
           </Link>
-          <Link
-            className="text-950 text-sm tracking-tighter  font-semibold"
-            to="/work"
-          >
-            Work
-          </Link>
+
           <Link
             className="text-950 text-sm tracking-tighter  font-semibold"
             to="/contact"
